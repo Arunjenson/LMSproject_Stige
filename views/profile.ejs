@@ -1,0 +1,57 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS | Arun jenson</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <nav class="profile">
+        <h1><a href="/">LMS - PROJECT</a></h1>
+        <ul>
+            <li><a href="/dashboard" class="btn">To Learning</a></li>
+            <li><a href="/logout" class="btn">Log out</a></li>
+        </ul>
+    </nav>
+
+    <div class="profilename">My Profile</div>
+    <div class="container">
+        <div class="items">
+            <div class="item1">
+                <p>UserName :</p>
+                <p>
+                    <%= user.name %>
+                </p>
+            </div>
+            <div class="item1">
+                <p>Registered Email :</p>
+                <p>
+                    <%= user.email %>
+                </p>
+            </div>
+            <div class="item1">
+                <p>Full Name :</p>
+                <p>
+                    <%= user.name %>
+                </p>
+            </div>
+            <div class="item1">
+                <p>Title :</p>
+                <p>
+                    Student
+                </p>
+            </div>
+            <div class="item1">
+                <p>Language : </p>
+                <p>
+                    English
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <%- include('partials/footer'); -%>

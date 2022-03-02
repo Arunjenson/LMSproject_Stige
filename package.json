@@ -1,0 +1,27 @@
+{
+  "name": "lms-project-stige",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.23",
+    "validator": "^13.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arunjenson/LMSproject_Stige.git"
+  },
+  "keywords": [],
+  "author": "Arun Jenson",
+  "license": "ISC",
+  "homepage": "https://github.com/Arunjenson/LMSproject_Stige"
+}
