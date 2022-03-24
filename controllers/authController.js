@@ -88,3 +88,5 @@ module.exports.logout_get = (req, res) => {
   res.cookie('tok', '', { maxAge: 1 });
   res.redirect('/');
 }
+
+

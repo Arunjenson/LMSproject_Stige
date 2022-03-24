@@ -43,6 +43,11 @@ nav li a{
   transition-duration: 0.4s;
   background: #ffa500;
 }
+
+
+.deadline{
+  margin-top: 0.5em;
+}
 form h2{
   font-size: 2.4em;
   font-weight: 900;
@@ -144,10 +149,10 @@ header .btn{
 }
 .courses{
   display: grid;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
   column-gap: 30px;
   row-gap: 80px;
-  margin: 80px AUTO;
+  margin: 80px auto;
   max-width: 1200px;
 }
 .course{
@@ -188,4 +193,48 @@ footer{
   text-align: center;
   margin-top: 3.8em;
   color: black;
+}
+
+/* task Manager */
+.taskcontain{
+  margin:0 auto;
+ height: 55%;
+ width:50%;
+ /* border: black 1px solid; */
+}
+.card-title{
+  margin: 2em;
+}
+form{
+  width: 360px;
+  margin: 27px;
+  padding: 48px;
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  background: #d3d3d3;
+}
+.card-content{
+  margin:2em;
+
+}
+.material-icons
+{
+ margin-right: 0em;
+
+}
+.collection-item{
+  display: flex;
+  gap: 2em;
+  margin-right: 2em;
+}
+.collection{
+  margin-bottom: 2em;
+}
+.signup{
+  width: 360px;
+  margin: 0 auto;
+  padding: 30px;
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  background: #d3d3d3;
 }
